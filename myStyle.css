@@ -1,0 +1,153 @@
+html, body{
+    width: 100%;
+    height:100vh;
+    margin:0%;
+    padding: 0%;
+    overflow-x: hidden;
+    display:block;
+    background-color: #e5e5f7;
+
+background-image:  radial-gradient(#444cf7 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#444cf7 1.1500000000000001px, #e5e5f7 1.1500000000000001px);
+background-size: 46px 46px;
+background-position: 0 0,23px 23px;
+}
+
+
+div{
+    display: block;
+}
+/* Header CSS */
+
+.Header{
+    width:100%;
+    margin: 0%;
+    text-align: center;
+    margin-top: 0;
+    height: 5vh;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: #444CF7;
+    
+
+
+}
+
+#notetaker{
+    margin: 0;
+    color: white;
+    height: 5vh;
+    text-align: center;
+    font-family: 'Comforter', cursive;
+    font-size: 28px;
+  
+}
+
+
+/* Note Input */
+
+.noteinput{
+
+    margin-top: 2%;
+    display: block;
+    width: 100%;
+    
+
+}
+
+
+/* Note */
+
+.NoteDisplayTag{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+   
+    
+}
+.Note{
+    background-color: #e5e5f7;
+    border-radius: 10px;
+    padding: 10px;
+/* opacity: 1;
+background-image: radial-gradient(#237379 1.4500000000000002px, #e5e5f7 1.4500000000000002px);
+background-size: 29px 29px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: 10px;
+    width: 15%;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* form css */
+
+.formContainer{
+    width: 20%;
+    padding: 20px;
+    margin-left: 40%;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: wheat;
+}
+input[type='text']{
+    font-size: 28px;
+    margin-left: 25%;
+    width: 50%;
+    height:4vh;
+    border: none;
+    padding: 0%;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+textarea{
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+#addbtn{
+    width: 20%;
+    height: 3vh;
+    display: block;
+    margin-left: 40%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#addbtn:hover{
+    transition: 0.4s;
+    background-color: olive;
+    
+    color: white;
+}
+
+
+
+
+/* note edit */
+#title{
+    text-align: center;
+}
+.delBtn{
+    width: 20%;
+    height: 3vh;
+    border: none;
+    outline: none;
+    float: right;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.delBtn:hover{
+    transition: 0.4s;
+    background-color: #EA3C53;
+    color: white;
+}
